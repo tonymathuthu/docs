@@ -7,4 +7,4 @@ A clean, responsive template for building documentation sites.
 - **Fully Responsive Layout**
 - **Markdown Support** for easy content writing
 
-## View live https://tonymathuthu.github.io/docs-website/
+View live : https://tonymathuthu.github.io/docs-website/
