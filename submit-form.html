@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit</title>
+    <link rel="stylesheet" href="css/submit-form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="js/script.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5fdc9b4c36.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#"
+          ><img
+            src="	https://demo.themefisher.com/godocs-bootstrap/images/logo.png"
+            alt="Logo"
+        /></a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Search Page</a></li>
+        </ul>
+        <form class="search" action="search-result.html">
+          <input type="sear" name="search" placeholder="Search Here..." />
+        </form>
+        <a id="first-button" href="#">Changelog</a>
+        <a id="sec-button" href="#">Contact</a>
+      </nav>
+    </header>
+    <div class="container">
+      <h4>Got Any Questions</h4>
+
+      <div class="f-name-s-name">
+        <small>First Name</small>
+        <div> <small>Last Name</small></div>
+      </div>
+
+      <form action="post">
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          required
+          placeholder="Your First Name"
+        />
+
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          required
+          placeholder="Your Last Name"
+        />
+      </form>
+
+      <small class="email-small">Email</small>
+      <form action="get">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="Your Email Adress"
+        />
+      </form>
+      <small id="reasons-of-contact">Reason of Contact</small>
+      <form action="post">
+        <select id="reason" name="reason" required>
+          <option value="" disabled selected>Select Reason</option>
+          <option value="Support">Business</option>
+          <option value="Feedback">Ticket</option>
+          <option value="Other">Project</option>
+        </select>
+      </form>
+      <small id="start-here">Start Writting From Here</small>
+      <form action="post">
+        <textarea
+          id="textarea"
+          name="textarea"
+          required
+          placeholder="Start Writing Here..."
+        ></textarea>
+      </form>
+      <button type="submit">Send</button>
+    </div>
+
+    <footer>
+      <div class="nav">
+        <ul>
+          <li><a href="#">Changelog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Search</a></li>
+        </ul>
+      </div>
+      <div class="logo-holder">
+        <a href="#"
+          ><img
+            src="https://demo.themefisher.com/godocs-bootstrap/images/logo.png"
+            alt="Logo"
+        /></a>
+      </div>
+      <div class="social-media-icons">
+        <div
+          ><a href="#"
+            ><i
+              class="fa-brands fa-facebook fa-xl"
+              style="color: #ffffff"
+            ></i></a
+        ></div>
+        <div>
+          <a href="#"
+            ><i class="fa-brands fa-x-twitter fa-xl" style="color: #ffffff"></i
+          ></a>
+        </div>
+        <div>
+          <a href="#"
+            ><i class="fa-brands fa-github fa-xl" style="color: #ffffff"></i
+          ></a>
+        </div>
+        <div>
+          <a href="#"
+            ><i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <hr />
+
+    <div class="copyright">
+      <small>Copyright &copy; 2024 web by tony</small>
+    </div>
+  </body>
+</html>
