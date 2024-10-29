@@ -206,6 +206,7 @@ form #textarea {
   border-bottom: 1.4px solid rgba(0, 0, 0, 0.1);
   font-size: 0.9rem;
   color: grey;
+  resize: none;
 }
 footer {
   width: 80rem;
